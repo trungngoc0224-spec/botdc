@@ -6,7 +6,7 @@ import asyncio
 import os
 
 # --- CẤU HÌNH ---
-DISCORD_TOKEN = "MTU0NjQzMDE1OTQ2MzEyMDk3Ng.GLvsM-.0IFWpGCEGwDqjdWntPI6dFKo6aWjg7b3Fr1c3Q"  # Thay bằng token bot Discord
+DISCORD_TOKEN = "MTU0NjQzMDE1OTQ2MzEyMDk3Ng.GnseuH.fAdWCduLEqOlqhsJMxTfXrUbxK6xL3kXme7aw0"  # Thay bằng token bot Discord
 APINEX_API_KEY = "sk-apxf1d7151152bab5d8f57f6a7f595778388923ed3a8eb3a2c"  # Thay bằng key của APInex
 APINEX_BASE_URL = "https://api.apinex.bond/v1"  # Base URL của APInex
 
