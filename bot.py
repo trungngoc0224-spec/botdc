@@ -7,7 +7,7 @@ import os
 
 # --- CẤU HÌNH ---
 DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
-APIINDEX_API_KEY = os.environ.get("APIINDEX_API_KEY")
+APINEX_API_KEY = os.environ.get("APIINDEX_API_KEY")
 APINEX_BASE_URL = "https://api.apinex.bond/v1"  # Base URL của APInex
 
 # Cấu hình OpenAI client để dùng APInex
