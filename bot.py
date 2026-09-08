@@ -6,8 +6,8 @@ import asyncio
 import os
 
 # --- CẤU HÌNH ---
-DISCORD_TOKEN = "MTU0NjQzMDE1OTQ2MzEyMDk3Ng.GnseuH.fAdWCduLEqOlqhsJMxTfXrUbxK6xL3kXme7aw0"  # Thay bằng token bot Discord
-APINEX_API_KEY = "sk-apxf1d7151152bab5d8f57f6a7f595778388923ed3a8eb3a2c"  # Thay bằng key của APInex
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+APIINDEX_API_KEY = os.environ.get("APIINDEX_API_KEY")
 APINEX_BASE_URL = "https://api.apinex.bond/v1"  # Base URL của APInex
 
 # Cấu hình OpenAI client để dùng APInex
